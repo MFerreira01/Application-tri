@@ -1,0 +1,28 @@
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.exe.config
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.exe
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.pdb
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csprojResolveAssemblyReference.cache
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Form1.resources
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Properties.Resources.resources
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.GenerateResource.Cache
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.exe
+C:\Hubert_KONIK\Enseignement\TSE FA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.pdb
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.exe.config
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.exe
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.pdb
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.exe
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.pdb
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csprojResolveAssemblyReference.cache
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Form1.resources
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Properties.Resources.resources
+C:\Hubert_KONIK\Enseignement\TSE FISA\Projet C++\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.GenerateResource.Cache
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.AssemblyReference.cache
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.exe
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.pdb
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.exe.config
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.exe
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\bin\Debug\seuilAuto.pdb
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Form1.resources
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Properties.Resources.resources
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.GenerateResource.cache
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.CoreCompileInputs.cache
