@@ -163,36 +163,28 @@ namespace seuilAuto
 
             OnLoad(null, EventArgs.Empty);
 
-            if (m_device != null && m_device.IsConnected())
+            if (m_device != null && m_device.IsConnected() && !m_device.IsBufferEmpty())
             {
-                if (!m_device.IsBufferEmpty())
+                gige.IImageInfo imageInfo = null;
+                m_device.GetImageInfo(ref imageInfo);
+
+                if (imageInfo != null)
                 {
-                    gige.IImageInfo imageInfo = null;
-                    m_device.GetImageInfo(ref imageInfo);
-                    if (imageInfo != null)
+                    Bitmap bitmap = (Bitmap)pbImgCam.Image;
+                    BitmapData bd = null;
+
+                    // Convert and display image
+                    ImageUtils.CopyToBitmap(imageInfo, ref bitmap, ref bd, ref m_pixelFormat, ref m_rect, ref m_pixelType);
+
+                    if (bitmap != null)
                     {
-                        Bitmap bitmap = (Bitmap)pbImgCam.Image;
-                        BitmapData bd = null;
-
-                        ImageUtils.CopyToBitmap(imageInfo, ref bitmap, ref bd, ref m_pixelFormat, ref m_rect, ref m_pixelType);
-
-                        if (bitmap != null)
-                        {
-                            pbImgCam.Height = bitmap.Height;
-                            pbImgCam.Width = bitmap.Width;
-                            pbImgCam.Image = bitmap;
-                        }
-
-                        // display image
-                        if (bd != null)
-                            bitmap.UnlockBits(bd);
-
-                        pbImgCam.Invalidate();
+                        pbImgCam.Image = bitmap;
+                        pbImgCam.SizeMode = PictureBoxSizeMode.Zoom;
                     }
-                    // remove (pop) image from image buffer
+
+                    // Release resources
+                    if (bd != null) bitmap.UnlockBits(bd);
                     m_device.PopImage(imageInfo);
-                    // empty buffer
-                    m_device.ClearImageBuffer();
                 }
             }
 

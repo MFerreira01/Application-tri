@@ -38,3 +38,4 @@ C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image S
 C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\bin\Debug\seuilAuto.pdb
 C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\bin\Debug\GigEVisionSDK_NET.dll
 C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.csproj.Up2Date
+C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.CopyComplete
