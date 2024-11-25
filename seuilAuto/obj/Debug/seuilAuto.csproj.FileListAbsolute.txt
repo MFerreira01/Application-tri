@@ -26,3 +26,15 @@ C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuil
 C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.Properties.Resources.resources
 C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.GenerateResource.cache
 C:\Users\maria\Documents\IPSI_2\C#\Exemple Seuillage\Exemple Wrapper Image Seuillage Auto\Devs\seuilAuto\obj\Debug\seuilAuto.csproj.CoreCompileInputs.cache
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.csproj.AssemblyReference.cache
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.Form1.resources
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.Properties.Resources.resources
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.csproj.GenerateResource.cache
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.csproj.CoreCompileInputs.cache
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.exe
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.pdb
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\bin\Debug\seuilAuto.exe.config
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\bin\Debug\seuilAuto.exe
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\bin\Debug\seuilAuto.pdb
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\bin\Debug\GigEVisionSDK_NET.dll
+C:\Users\rosel\IPSI\Exemple Wrapper Image Seuillage Auto\Exemple Wrapper Image Seuillage Auto\Devs\Application-tri\seuilAuto\obj\Debug\seuilAuto.csproj.Up2Date

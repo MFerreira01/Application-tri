@@ -11,6 +11,7 @@ using System.Drawing.Imaging;
 
 using System.Runtime.InteropServices;
 using libImage;
+using gige;
 
 namespace seuilAuto
 {
@@ -19,11 +20,73 @@ namespace seuilAuto
         public Form1()
         {
             InitializeComponent();
+
         }
+        gige.IDevice m_device;
+        Rectangle m_rect;
+        PixelFormat m_pixelFormat;
+        UInt32 m_pixelType;
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void OnLoad(object sender, EventArgs e)
+        {
+            bool cameraConnected = false;
+            
+
+            // initialize GigEVision API
+            gige.GigEVisionSDK.InitGigEVisionAPI();
+            gige.IGigEVisionAPI gigeVisionApi = gige.GigEVisionSDK.GetGigEVisionAPI();
+
+
+            // discover all devices on network
+            gigeVisionApi.FindAllDevices(3.0);
+            gige.IDevice[] devices = gigeVisionApi.GetAllDevices();
+
+            if (devices.Length > 0)
+            {
+                // take first device in list
+                m_device = devices[0];
+
+                // uncomment to use specific model
+                //for (int i = 0; i < devices.Length; i++)
+                //{
+                //    if (devices[i].GetModelName() == "GC652M")
+                //    {
+                //        m_device = devices[i];
+                //    }
+                //}
+
+                // to change number of images in image buffer from default 10 images 
+                // call SetImageBufferFrameCount() method before Connect() method
+                //m_device.SetImageBufferFrameCount(20);
+
+                if (m_device != null && m_device.Connect())
+                {
+                    label1.Text = "Camera address:";
+                    label2.Text = Common.IpAddrToString(m_device.GetIpAddress());
+
+
+                    // disable trigger mode
+                    bool status = m_device.SetStringNodeValue("TriggerMode", "Off");
+                    // set continuous acquisition mode
+                    status = m_device.SetStringNodeValue("AcquisitionMode", "Continuous");
+                    // start acquisition
+                    status = m_device.SetIntegerNodeValue("TLParamsLocked", 1);
+                    status = m_device.CommandNodeExecute("AcquisitionStart");
+                    timer1.Enabled = true;
+                    cameraConnected = true;
+                }
+            }
+
+            if (!cameraConnected)
+            {
+                label1.Text = "No camera connected";
+                label1.BackColor = Color.Orange;
+            }
         }
 
         private void buttonOuvrir_Click(object sender, EventArgs e)
@@ -89,6 +152,57 @@ namespace seuilAuto
 
             // transférer C++ vers bmp
             imageSeuillee.Image = bmp;
+        }
+
+        private void boutStart_Click(object sender, EventArgs e)
+        {
+            // PC1 : traitement
+            // prendre l'image de la caméra
+
+            // étape 1. Vérifier que la caméra est bien connectée
+
+            OnLoad(null, EventArgs.Empty);
+
+            if (m_device != null && m_device.IsConnected())
+            {
+                if (!m_device.IsBufferEmpty())
+                {
+                    gige.IImageInfo imageInfo = null;
+                    m_device.GetImageInfo(ref imageInfo);
+                    if (imageInfo != null)
+                    {
+                        Bitmap bitmap = (Bitmap)pbImgCam.Image;
+                        BitmapData bd = null;
+
+                        ImageUtils.CopyToBitmap(imageInfo, ref bitmap, ref bd, ref m_pixelFormat, ref m_rect, ref m_pixelType);
+
+                        if (bitmap != null)
+                        {
+                            pbImgCam.Height = bitmap.Height;
+                            pbImgCam.Width = bitmap.Width;
+                            pbImgCam.Image = bitmap;
+                        }
+
+                        // display image
+                        if (bd != null)
+                            bitmap.UnlockBits(bd);
+
+                        pbImgCam.Invalidate();
+                    }
+                    // remove (pop) image from image buffer
+                    m_device.PopImage(imageInfo);
+                    // empty buffer
+                    m_device.ClearImageBuffer();
+                }
+            }
+
+            // faire l'histogramme
+
+            // prendre la décision selon l'histogramme
+
+
+
+            // envoyer le verdict à PC2
         }
     }
 }
